@@ -15,6 +15,8 @@
 		692963691C18190E00885817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692963671C18190E00885817 /* LaunchScreen.storyboard */; };
 		692963741C18190F00885817 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 692963731C18190F00885817 /* ____Tests.m */; };
 		6929637F1C18190F00885817 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929637E1C18190F00885817 /* ____UITests.m */; };
+		6929638E1C1819C700885817 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929638D1C1819C700885817 /* LoginViewController.m */; };
+		692963911C1819D100885817 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692963901C1819D100885817 /* RegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6929637A1C18190F00885817 /* 代理实战UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "代理实战UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6929637E1C18190F00885817 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		692963801C18190F00885817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6929638C1C1819C700885817 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6929638D1C1819C700885817 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6929638F1C1819D100885817 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		692963901C1819D100885817 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				6929635D1C18190E00885817 /* AppDelegate.m */,
 				6929635F1C18190E00885817 /* ViewController.h */,
 				692963601C18190E00885817 /* ViewController.m */,
+				6929638C1C1819C700885817 /* LoginViewController.h */,
+				6929638D1C1819C700885817 /* LoginViewController.m */,
+				6929638F1C1819D100885817 /* RegisterViewController.h */,
+				692963901C1819D100885817 /* RegisterViewController.m */,
 				692963621C18190E00885817 /* Main.storyboard */,
 				692963651C18190E00885817 /* Assets.xcassets */,
 				692963671C18190E00885817 /* LaunchScreen.storyboard */,
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692963911C1819D100885817 /* RegisterViewController.m in Sources */,
+				6929638E1C1819C700885817 /* LoginViewController.m in Sources */,
 				692963611C18190E00885817 /* ViewController.m in Sources */,
 				6929635E1C18190E00885817 /* AppDelegate.m in Sources */,
 				6929635B1C18190E00885817 /* main.m in Sources */,
@@ -496,6 +508,7 @@
 				692963851C18190F00885817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		692963861C18190F00885817 /* Build configuration list for PBXNativeTarget "代理实战Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				692963881C18190F00885817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		692963891C18190F00885817 /* Build configuration list for PBXNativeTarget "代理实战UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				6929638B1C18190F00885817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LoginViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor colorWithRed:0.9608 green:0.9608 blue:0.9608 alpha:1.0];
+    self.title = @"首页";
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(100, 100, 100, 100);
+    [button setTitle:@"登录" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor brownColor];
+    [button addTarget:self action:@selector(doit) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+}
+
+- (void)doit{
+    LoginViewController *login = [[LoginViewController alloc]init];
+    [self.navigationController pushViewController:login animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
